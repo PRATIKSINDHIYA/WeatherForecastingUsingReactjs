@@ -39,10 +39,10 @@ npm start
 
 ## 📸 Screenshots
 🔹 **Current Weather View**  
-![Current Weather](public/image.png)
+![Current Weather](public/image1.png)
 
 🔹 **5-Day Forecast View**  
-![5-Day Forecast](public/image1.png)
+![5-Day Forecast](public/image.png)
 
 ## 📝 License
 📜 This project is licensed under the **MIT License** - feel free to use and modify it! 🎉
