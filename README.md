@@ -30,9 +30,6 @@ cd WeatherForecastingUsingReactjs
 # Install dependencies
 npm install
 
-# Create a .env file and add your OpenWeatherMap API key
-REACT_APP_WEATHER_API_KEY=your_api_key_here
-
 # Start the development server
 npm start
 ```
@@ -43,9 +40,6 @@ npm start
 
 🔹 **5-Day Forecast View**  
 ![5-Day Forecast](public/image.png)
-
-## 📝 License
-📜 This project is licensed under the **MIT License** - feel free to use and modify it! 🎉
 
 ## 🙌 Acknowledgements
 - Thanks to **OpenWeatherMap API** for providing weather data 🌍
