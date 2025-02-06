@@ -13,10 +13,8 @@ const Navbar = ({input}) => {
                             <Link  className='first' to="/" >Current</Link>
                         </li>
                         <li className='second'>
-                            <Link className="second" to={`/WeatherForecast?city=${input}`}>Forecast</Link>
-                            
+                            <Link className="second" to={`/WeatherForecast?city=${input}`}>Forecast</Link>    
                         </li>
-   
                 </ul>
             </div>
         </div >

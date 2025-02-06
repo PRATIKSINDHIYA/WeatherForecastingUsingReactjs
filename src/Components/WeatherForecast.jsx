@@ -4,14 +4,14 @@ import './WeatherForecast.css';
 import Navbar from './Navbar';
 
 
-const WeatherForecast = () => {
+const WeatherForecast = ({input}) => {
     const [forecast, setForecast] = useState([]);
     const [currentLocation, setCurrentLocation] = useState('');
     const [time, setTime] = useState('');
     const [currentDate, setCurrentDate] = useState('');
 
     const location = useLocation();
-    const input = new URLSearchParams(location.search).get('city') || 'Indore'; 
+    // const input = new URLSearchParams(location.search).get('city') || 'Indore'; 
 
     const apiDataFetch = async () => {
         const api = '903507f17d707fecd352d38301efba77';

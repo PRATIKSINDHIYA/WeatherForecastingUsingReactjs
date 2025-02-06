@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './Current.css';
 import { Link } from 'react-router-dom';
+import Navbar from './Navbar';
 
-const CurrentWeather = () => {
-  const [input, setInput] = useState('Indore');
+const CurrentWeather = ({input , setInput}) => {
+  // const [input, setInput] = useState('Indore');
   const [newData, setNewData] = useState([]);
   const [todayDate, setTodayDate] = useState('');
   const [currentLocation, setCurrentLocation] = useState('');
@@ -92,5 +93,4 @@ const CurrentWeather = () => {
     </div>
   );
 };
-
 export default CurrentWeather;
