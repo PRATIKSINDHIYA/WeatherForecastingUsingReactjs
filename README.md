@@ -35,10 +35,10 @@ npm start
 ```
 
 ## 📸 Screenshots
- # Current Weather View  
+ ### Current Weather View  
 ![Current Weather](public/image1.png)
 
- # 5-Day Forecast View
+ ### 5-Day Forecast View
 ![5-Day Forecast](public/image.png)
 
 ## 🙌 Acknowledgements
